@@ -4,7 +4,9 @@
   "description": "Time as daily percentage.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,13 @@
   },
   "homepage": "https://github.com/justiceiscrazy/clock#readme",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-env": "^2.4.1",
     "babel-loader": "^7.1.2",
     "clean-webpack-plugin": "^0.1.17",
     "html-webpack-plugin": "^2.30.1",
     "react": "^16.1.1",
-    "webpack": "^3.8.1"
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
   }
 }
