@@ -1,0 +1,26 @@
+{
+  "name": "clock",
+  "version": "0.0.1",
+  "description": "Time as daily percentage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justiceiscrazy/clock.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/justiceiscrazy/clock/issues"
+  },
+  "homepage": "https://github.com/justiceiscrazy/clock#readme",
+  "dependencies": {
+    "babel-loader": "^7.1.2",
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "react": "^16.1.1",
+    "webpack": "^3.8.1"
+  }
+}
