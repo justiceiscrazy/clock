@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  devServer: { contentBase: './dist' },
+  devServer: { contentBase: './docs' },
   devtool: 'inline-source-map',
   entry: './src/index.jsx',
   module: {
@@ -29,10 +29,10 @@ module.exports = {
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
   },
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    new CleanWebpackPlugin(['docs']),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       inject: 'body',
