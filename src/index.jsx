@@ -54,7 +54,7 @@ class Clock extends Component {
           Normal time: {this.state.time.toLocaleTimeString()}
         </h1>
         <h1>
-          Percentage of the day gone by: <span className={color}>
+          Percentage of the day gone by: <span>
           {perc(this.state.time).toFixed(4)}%
           </span>
         </h1>
